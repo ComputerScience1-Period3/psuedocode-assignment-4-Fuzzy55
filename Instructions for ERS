@@ -1,0 +1,28 @@
+Divide up cards as evenly as possible to players
+Players arrange their cards in a deck without looking
+While there is no winner
+  Players take turns putting down cards face up in a pile
+  If a face card is put down:
+    If face card is Jack:
+      next player puts down one card;
+      If the player puts down a face card or ten:
+        next player goes;
+    Else if face card is Queen:
+      for(int i=0; i<2; i++)
+      next player puts down one card;
+      If card was face card or ten:
+        next player goes;
+    Else if face card is King:
+      next player puts down three cards;
+      If the player puts down a face card or ten:
+        next player goes;
+    Else if face card is Ace:
+      next player puts down four cards;
+      If the player puts down a face card or ten:
+        next player goes;
+  If a combination of cards appears that was predecided upon appears:
+    first player who slaps the pile gets the pile and starts next round.;
+  If a player slaps on a combination of cards not predecided upon:
+    player takes top card from deck and puts face down on bottom of the pile.;
+  If one player has all the cards:
+    game ends and that player wins.;
