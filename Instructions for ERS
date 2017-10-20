@@ -9,15 +9,17 @@ While there is no winner
         next player goes;
     Else if face card is Queen:
       for(int i=0; i<2; i++)
-      next player puts down one card;
-      If card was face card or ten:
-        next player goes;
+        next player puts down one card;
+        If card was face card or ten:
+          next player goes;
     Else if face card is King:
-      next player puts down three cards;
+    for(int i=0; i<3; i++)
+      next player puts down one card;
       If the player puts down a face card or ten:
         next player goes;
     Else if face card is Ace:
-      next player puts down four cards;
+      for(int i=0; i<4; i++)
+        Next player puts down a card;
       If the player puts down a face card or ten:
         next player goes;
   If a combination of cards appears that was predecided upon appears:
